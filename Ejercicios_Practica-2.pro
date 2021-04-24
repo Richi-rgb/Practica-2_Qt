@@ -4,4 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        auxiliar.cpp \
+        main.cpp \
+        problemas.cpp
+
+HEADERS += \
+    auxiliar.h \
+    problemas.h
