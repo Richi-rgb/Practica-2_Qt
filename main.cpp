@@ -1,9 +1,7 @@
-#include <iostream>
-
-using namespace std;
+#include "problemas.h"
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    cout << digits(12345) << endl;
     return 0;
 }
