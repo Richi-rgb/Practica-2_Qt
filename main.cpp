@@ -2,6 +2,9 @@
 
 int main()
 {
-    cout << digits(12345) << endl;
+    int roads;
+    roads = problema16(3);
+    cout << "El total de caminos es " << roads << endl;
+
     return 0;
 }
